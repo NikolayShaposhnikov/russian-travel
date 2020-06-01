@@ -6,7 +6,7 @@
   text-align: right;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 787px) {
   .footer__copyright {
     width: max-content;
     height: 14px;

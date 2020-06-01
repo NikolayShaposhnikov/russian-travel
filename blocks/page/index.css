@@ -1,0 +1,46 @@
+@import '../../vendor/normalize.css';
+@import '../../fonts/fonts.css';
+@import '../header/header.css';
+@import '../lead/lead.css';
+@import '../intro/intro.css';
+@import '../photo-grid/photo-grid.css';
+@import '../places/places.css';
+@import '../place/place.css';
+@import '../cover/cover.css';
+@import '../footer/footer.css';
+
+.body {
+  background-color: #2A2C2F;
+}
+.page {
+  width: 1280px;
+  padding-top: 28px;
+  margin: 0px auto;
+  color: #FFFFFF;
+  font-family: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
+  font-style: normal;
+  font-weight: normal;
+}
+@media screen and (max-width: 1300px) {
+  .page {
+    width: 1024px;
+  }
+}
+@media screen and (max-width: 1044px) {
+  .page {
+    width: 768px;
+  }
+}
+@media screen and (max-width: 787px) {
+  .page {
+    width: 320px;
+    padding-top: 16px;
+  }
+}
+
+/*
+border: 1px solid red;
+
+opacity: 0.5;
+transition: opacity 0.2s linear 0s;
+*/
